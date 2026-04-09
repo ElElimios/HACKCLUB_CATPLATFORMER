@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Platformer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="startScreen">
+    <img src="cat.png" id="catimg">
+    <h1>THE CHEF CAT</h1>
+    <h2>Collect 100 steaks and win!!!</h2>
+    <button onclick="startGame()">Play</button>
+</div>
+
+<div id="gameOverScreen">
+    <h1 id="gameOverText"></h1>
+    <button onclick="restartGame()">Retry</button>
+</div>
+<canvas id="game"></canvas>
+
+
+<script src="script.js"></script>
+</body>
+</html>
